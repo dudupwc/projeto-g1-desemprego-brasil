@@ -10,16 +10,6 @@ from sqlalchemy import create_engine, text
 
 st.set_page_config(page_title="Desemprego no Brasil | G1", page_icon="📊", layout="wide")
 
-st.markdown("""
-**Aluno:** Carlos Eduardo Júlio da Costa
-
-**Professor:** Alexandre Neves Louzada
-
-**Disciplina:** Linguagens de Programação
-
-**Avaliação:** G1
-""")
-
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 CSV_PATH = os.path.join(BASE_DIR, "dados", "simulacao_desemprego_brasil.csv")
 DB_DIR = os.path.join(BASE_DIR, "database")
@@ -56,6 +46,17 @@ coords = {
 }
 
 st.title("Desemprego no Brasil — 2015 a 2024")
+
+st.markdown("""
+**Aluno:** Carlos Eduardo Júlio da Costa
+
+**Professor:** Alexandre Neves Louzada
+
+**Disciplina:** Linguagens de Programação
+
+**Avaliação:** G1
+""")
+
 st.markdown(
     "### Análise exploratória e dashboard interativo\n"
     "Este projeto investiga a evolução do desemprego, diferenças regionais e "
