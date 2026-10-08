@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Desemprego no Brasil — Projeto G1</title>
+<style>
+:root{--bg:#f5f7fb;--card:#fff;--text:#182230;--muted:#64748b;--accent:#2563eb;--accent2:#0f172a}
+*{box-sizing:border-box}body{margin:0;font-family:Inter,Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.6}
+.hero{background:linear-gradient(135deg,#0f172a,#2563eb);color:#fff;padding:80px 8%;min-height:430px;display:flex;align-items:center}
+.hero .wrap{max-width:1100px}.tag{display:inline-block;background:rgba(255,255,255,.15);padding:7px 13px;border-radius:999px;font-size:14px}
+h1{font-size:clamp(38px,6vw,72px);line-height:1.02;margin:22px 0 18px}.hero p{font-size:20px;max-width:780px;color:#e2e8f0}
+.container{max-width:1100px;margin:-55px auto 60px;padding:0 20px;position:relative}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:18px}
+.card{background:var(--card);border-radius:18px;padding:26px;box-shadow:0 12px 35px rgba(15,23,42,.08);margin-bottom:18px}.card h2{margin-top:0}.kpi strong{display:block;font-size:31px;color:var(--accent)}.muted{color:var(--muted)}
+.pill{display:inline-block;background:#eff6ff;color:#1d4ed8;border-radius:999px;padding:6px 10px;margin:4px;font-size:13px}
+.links{display:flex;flex-wrap:wrap;gap:12px}.links a{display:inline-block;text-decoration:none;background:var(--accent);color:white;padding:12px 17px;border-radius:10px;font-weight:700}.links a.secondary{background:#e2e8f0;color:#0f172a}
+footer{text-align:center;color:var(--muted);padding:35px}
+.notice{border-left:4px solid #f59e0b;background:#fffbeb;padding:15px 18px;border-radius:8px}
+</style>
+</head>
+<body>
+<section class="hero"><div class="wrap">
+<span class="tag">Avaliação G1 • Linguagem de Programação</span>
+<h1>Desemprego no Brasil</h1>
+<p>Análise e visualização de dados sobre a evolução do desemprego entre 2015 e 2024, com comparações regionais, indicadores econômicos e dashboard interativo.</p>
+</div></section>
+<main class="container">
+<section class="grid">
+<div class="card kpi"><strong>2015–2024</strong><span>Período analisado</span></div>
+<div class="card kpi"><strong>800</strong><span>Observações da base</span></div>
+<div class="card kpi"><strong>20</strong><span>Unidades federativas na base</span></div>
+<div class="card kpi"><strong>4</strong><span>Trimestres por ano</span></div>
+</section>
+<section class="card">
+<h2>Sobre o projeto</h2>
+<p>O projeto investiga a evolução da taxa de desemprego e as diferenças entre regiões e estados. Também são analisadas renda média, vagas formais, inflação, setor predominante e nível de risco.</p>
+<div class="notice"><b>Nota:</b> os dados utilizados são simulados e foram fornecidos para a atividade acadêmica. As conclusões não representam estatísticas oficiais.</div>
+</section>
+<section class="card">
+<h2>O que foi desenvolvido</h2>
+<div>
+<span class="pill">Python</span><span class="pill">Pandas</span><span class="pill">Matplotlib</span><span class="pill">Seaborn</span><span class="pill">Streamlit</span><span class="pill">Plotly</span><span class="pill">SQLAlchemy</span><span class="pill">SQLite</span>
+</div>
+<ul>
+<li>Tratamento e validação da base.</li>
+<li>Engenharia de atributos e análise exploratória.</li>
+<li>KPIs dinâmicos.</li>
+<li>Filtros múltiplos por ano, região, UF, setor e risco.</li>
+<li>Análise temporal e comparações regionais.</li>
+<li>Correlação estatística.</li>
+<li>Mapa interativo por UF.</li>
+<li>Persistência dos dados em SQLite com SQLAlchemy.</li>
+</ul>
+</section>
+<section class="card">
+<h2>Entregas</h2>
+<p class="muted">Depois de publicar o projeto, substitua os três links abaixo pelos endereços reais.</p>
+<div class="links">
+<a href="https://github.com/" target="_blank">Repositório GitHub</a>
+<a href="https://streamlit.io/" target="_blank">Dashboard Streamlit</a>
+<a class="secondary" href="notebooks/analise_desemprego_brasil.ipynb">Notebook</a>
+</div>
+</section>
+<section class="card">
+<h2>Conclusão</h2>
+<p>A análise permite observar que o desemprego apresenta diferenças importantes entre regiões e UFs e que a dimensão temporal é essencial para compreender as oscilações da série. O dashboard reúne os resultados em uma interface interativa, permitindo explorar os dados de acordo com diferentes filtros.</p>
+</section>
+</main>
+<footer>Projeto G1 — Análise e Visualização de Dados com Python</footer>
+</body>
+</html>
