@@ -3,6 +3,12 @@
 ## Tema
 **Desemprego no Brasil — 2015 a 2024**
 
+## Aluno: Carlos Eduardo Júlio da Costa
+
+## Matéria: Linguagens de Programação
+
+## Professor: Alexandre Neves Louzada
+
 ## Objetivo
 Analisar uma base simulada de dados de desemprego, identificando evolução temporal, diferenças regionais e relações entre taxa de desemprego, renda média, vagas formais e inflação.
 
