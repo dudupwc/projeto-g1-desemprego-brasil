@@ -166,7 +166,7 @@ mapfig = px.scatter_geo(
     title="Indicadores médios por UF — pontos posicionados pelas capitais",
     color_continuous_scale="Turbo"
 )
-mapfig.update_geos(showcountries=True, showcountrieslabels=True)
+mapfig.update_geos(showcountries=True)
 st.plotly_chart(mapfig, use_container_width=True)
 
 st.header("5. Tabela detalhada")
